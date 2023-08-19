@@ -1,0 +1,27 @@
+.heading{
+    text-align: center;
+    
+    display: flex;
+    position: absolute;
+    left: 500px;
+}
+p{
+    text-align: center;
+    display: flex;
+    position: absolute;
+   
+}
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/686/52/945/luxurious-hotel-room-wallpaper-preview.jpg');
+    background-size: cover;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background-repeat: no-repeat;
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/686/52/945/luxurious-hotel-room-wallpaper-preview.jpg');
+        height: 600px;
+    background-size: cover;
+
+    }
+}
